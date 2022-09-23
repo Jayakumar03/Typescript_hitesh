@@ -1,3 +1,3 @@
 # Typescript_hitesh
 
-# Learning typescript to develop my knowledge in forntend enviroment and improve skill set
+# Learning typescript to develop my knowledge in frontend enviroment and improve my skill set

@@ -2,12 +2,15 @@ const User = {
     name:"jayakumar",
     ispaid:"true"
 }
+console.log(User.name);
+console.log(User.ispaid);
+
 
 function createUser(name:string,ispaid:boolean) {
     
 }
 
-createUser(user)
+createUser()
 // how tell an fucntion or method i need object as return
 function name():{
     // this {} specific that return value is object

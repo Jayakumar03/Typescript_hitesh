@@ -4,9 +4,11 @@ var User = {
     name: "jayakumar",
     ispaid: "true"
 };
-function createUser(name, ispaid) {
-}
-createUser(User);
+console.log(User.name);
+console.log(User.ispaid);
+// function createUser(name:string,ispaid:boolean) {
+// }
+// createUser()
 // how tell an fucntion or method i need object as return
 function name() {
     return true;
