@@ -26,4 +26,10 @@ function name():{
     // error because we didn't return as specified object.
     
 }
+
+// callback function
+function user(n1:number, n2:number, callback:(num:number) => {}){
+    const result= n1+ n2
+    callback(result)
+}
 export{}
