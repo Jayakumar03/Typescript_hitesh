@@ -1,6 +1,10 @@
-const User = {
+const User:{
+    name:string,
+    ispaid:boolean
+    // explict telling typescript that user should hold these properties.
+} = {
     name:"jayakumar",
-    ispaid:"true"
+    ispaid:true
 }
 console.log(User.name);
 console.log(User.ispaid);
@@ -10,10 +14,11 @@ function createUser(name:string,ispaid:boolean) {
     
 }
 
-createUser()
+createUser(User.name, User.ispaid)
+
 // how tell an fucntion or method i need object as return
 function name():{
-    // this {} specific that return value is object
+    // this "{}"" specific that return value is object
     // we pass value or method or certain properties as well.
     name:"jayakumar", ispaid:true
 } {
