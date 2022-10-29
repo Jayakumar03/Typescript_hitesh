@@ -13,4 +13,4 @@ startrail : () => {
     //because of interface return should be in string
     return"hello"
 }
-} 
+}
